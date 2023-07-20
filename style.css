@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  background: #fff;
+  color: #888;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+
+}
+
+
+#navbar {
+  padding: 6px 0;
+}
+
+.dip-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img {
+  width: 300px;
+}
+
+.menu ul li {
+  display: inline-block;
+
+}
+
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar end */
+
+#content {
+  max-width: 100%;
+  background-color: #f1c40f;
+  height: 100vh;
+}
+
+#main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.main-item {
+  width: 50%;
+  margin-top: 40px;
+
+
+}
+
+.all-main {
+  margin-top: 124px;
+  margin-left: 56px;
+
+}
+
+.main-img {}
+
+.main-img img {
+  margin-top: 124px;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+
+  border: 15px solid white;
+  margin-left: 75px;
+}
+
+.main-heading h3 {
+  font-size: 80px;
+  color: black;
+  line-height: 125px;
+}
+
+.main-title {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 61px;
+  color: black;
+}
+
+.main-para {
+  color: black;
+  line-height: 30px;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.n-btn {
+  padding: 15px 34px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 2px 3px gray;
+}
+
+.btn-link {
+  padding: 15px 34px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* content end */
+
+
+.container-area {
+  max-width: 100%;
+  height: 800px;
+  display: block;
+
+}
+
+.container {
+  width: 95%;
+
+}
+
+.row {}
+
+.row {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.row h3 {
+  background: #f1c40f;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.row h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  color: black;
+}
+
+.heading-area p {
+  display: inline-block;
+  font-size: 25px;
+  width: 70%;
+  margin-top: 50px;
+  line-height: 1.3;
+  color: #212529;
+  float: left;
+}
+
+.heading-area span {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 3px solid #f3dc0e;
+
+}
+
+.paragraph {
+  display: inline-block;
+  float: left;
+  margin-left: 70px;
+}
+
+.paragraph h1 {
+  font-size: 200px;
+  margin-left: 70px;
+}
+
+.paragraph p {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.paragraph span {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 3px solid #f3dc0e;
+
+}
+
+.flex-area {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+
+}
+
+.area {
+  margin-top: 100px;
+  width: 22%;
+  align-items: center;
+}
+
+.area h2 {
+  color: black;
+  line-height: 45px;
+}
+
+.area a {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  line-height: 48px;
+}
+
+
+
+
+
+
+/* footer end */
+.footer {
+  width: 100%;
+  background: #00121b;
+  display: block;
+
+}
+
+.footer-content {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.footer-item {
+  width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.banner {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.link-ul ul li {
+  display: block;
+}
+
+.link-ul ul li a {
+  text-decoration: none;
+  color: rgb(226, 220, 210);
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link-ul ul li a:hover {
+  color: white;
+}
+
+.link-ul ul p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  color: rgb(226, 220, 210);
+}
+
+.link-ul ul p:hover {
+  color: white;
+}
+
+.link-ul ul i {
+  margin-top: 20px;
+
+  padding: 14px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.end-area p {
+  border-top: 1px solid gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+}
